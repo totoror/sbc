@@ -1,13 +1,2 @@
 server:
  port: 60011
- 
-eureka:
- instance:
-  hostname: peer1
- server:
-  enableSelfPreservation: false
-# client:
-#  register-with-eureka: false
-#  fetch-registry: false
-  serviceUrl:
-   defaultZone: http://localhost:60012/eureka
